@@ -5,7 +5,7 @@
 
 > Aplicação web para explorar personagens série Rick and Morty usando a API GraphQL oficial.
 
-![Preview da Aplicação](https://rick-and-morty-phi-snowy.vercel.app/)
+Preview da Aplicação - (https://rick-and-morty-phi-snowy.vercel.app/)
 
 ## ✨ Funcionalidades
 
