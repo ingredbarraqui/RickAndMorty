@@ -5,7 +5,7 @@
 
 > Aplicação web para explorar personagens série Rick and Morty usando a API GraphQL oficial.
 
-Preview da Aplicação - (https://rick-and-morty-phi-snowy.vercel.app/)
+Preview da Aplicação - https://rick-and-morty-phi-snowy.vercel.app/
 
 ## ✨ Funcionalidades
 
@@ -18,7 +18,6 @@ Preview da Aplicação - (https://rick-and-morty-phi-snowy.vercel.app/)
 
 - **Frontend**: 
   - Vue 3 (Composition API)
-  - Pinia (Gerenciamento de estado)
   - Apollo Client (GraphQL)
   - Bootstrap 5 (Estilização)
 
