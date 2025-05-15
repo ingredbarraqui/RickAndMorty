@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ListaItem from '@/components/ListaRickAndMorty/ListaItem.vue'
 import SobreView from '@/views/SobreView.vue'
 
 const router = createRouter({
@@ -9,6 +10,15 @@ const router = createRouter({
       path: '/',
       name: 'Home',
       component: HomeView,
+    },
+    {
+      path: '/:characterId',
+      name: 'Personagem',
+      component: ListaItem,
+      props: ({ params }) => ({
+        ...params,
+        ...{ characterId: Number.parseInt(params.characterId) || undefined },
+      }),
     },
     {
       path: '/sobre',
