@@ -1,35 +1,40 @@
-# RickAndMortyList
+# 🚀 Rick and Morty Explorer
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D.svg)](https://vuejs.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Recommended IDE Setup
+> Aplicação web para explorar personagens série Rick and Morty usando a API GraphQL oficial.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ Funcionalidades
 
-## Customize configuration
+- 📜 Listagem paginada de personagens com filtros
+- 🔍 Busca avançada por nome
+- 📱 Layout responsivo para todos os dispositivos
+- ⚡ Cache inteligente com Apollo Client
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠 Tecnologias
 
-## Project Setup
+- **Frontend**: 
+  - Vue 3 (Composition API)
+  - Pinia (Gerenciamento de estado)
+  - Apollo Client (GraphQL)
+  - Bootstrap 5 (Estilização)
 
-```sh
+- **Ferramentas**:
+  - Vite (Build tool)
+  - ESLint + Prettier (Padronização)
+
+## 🚀 Como Executar
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/rick-and-morty.git
+
+# 2. Instale as dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 3. Execute em modo desenvolvimento
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+# 4. Acesse no navegador
+http://localhost:5173
